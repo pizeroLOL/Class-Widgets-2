@@ -213,6 +213,15 @@ wheels = [
 ]
 
 [[package]]
+name = "packaging"
+version = "26.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/65/ee/299d360cdc32edc7d2cf530f3accf79c4fca01e96ffc950d8a52213bd8e4/packaging-26.0.tar.gz", hash = "sha256:00243ae351a257117b6a241061796684b084ed1c516a08c48a3f7e147a9d80b4", size = 143416, upload-time = "2026-01-21T20:50:39.064Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b7/b9/c538f279a4e237a006a2c98387d081e9eb060d203d8ed34467cc0f0b9b53/packaging-26.0-py3-none-any.whl", hash = "sha256:b36f1fef9334a5588b4166f8bcd26a14e521f2b55e6b9de3aaa80d3ff7a37529", size = 74366, upload-time = "2026-01-21T20:50:37.788Z" },
+]
+
+[[package]]
 name = "pydantic"
 version = "2.12.0"
 source = { registry = "http://mirrors.aliyun.com/pypi/simple/" }
@@ -380,15 +389,15 @@ wheels = [
 [[package]]
 name = "rinui"
 version = "0.2.0"
-source = { registry = "http://mirrors.aliyun.com/pypi/simple/" }
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "darkdetect" },
     { name = "pyside6" },
     { name = "pywin32", marker = "sys_platform == 'win32'" },
 ]
-sdist = { url = "http://mirrors.aliyun.com/pypi/packages/11/7d/a7a974b359a35c2c7acf7a60f6f269e078ffabc7209bd60677f3b5f76c1b/rinui-0.2.0.tar.gz", hash = "sha256:69546d902fd6772f24989a8b40bab3e3bc9a02d1b0a2d805fd10d77d4ccc19eb" }
+sdist = { url = "https://files.pythonhosted.org/packages/11/7d/a7a974b359a35c2c7acf7a60f6f269e078ffabc7209bd60677f3b5f76c1b/rinui-0.2.0.tar.gz", hash = "sha256:69546d902fd6772f24989a8b40bab3e3bc9a02d1b0a2d805fd10d77d4ccc19eb", size = 899051, upload-time = "2026-01-17T14:23:31.126Z" }
 wheels = [
-    { url = "http://mirrors.aliyun.com/pypi/packages/a1/33/6ee083b4b345a91da13a1b1ef4ed9e00c0a15cdb91c9109ec63329694e0e/rinui-0.2.0-py3-none-any.whl", hash = "sha256:f96772e4af055a151f9a3ca9b824c64c2d30a7f140f02ed4dced22f33e404f1b" },
+    { url = "https://files.pythonhosted.org/packages/a1/33/6ee083b4b345a91da13a1b1ef4ed9e00c0a15cdb91c9109ec63329694e0e/rinui-0.2.0-py3-none-any.whl", hash = "sha256:f96772e4af055a151f9a3ca9b824c64c2d30a7f140f02ed4dced22f33e404f1b", size = 959282, upload-time = "2026-01-17T14:23:29.534Z" },
 ]
 
 [[package]]
